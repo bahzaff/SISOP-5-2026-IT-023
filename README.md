@@ -505,30 +505,62 @@ else if (strcmp(cmd, "clear"))        { clearScreen(); continue; }
 
 **OUTPUT SOAL 2**
 
+**OUTPUT SOAL 2**
+ 
 `check dan help`
-
-![output check help](assets/check_help.png)
-
+```
+> check
+ok
+> help
+check add sub fac season triangle clear about
+```
+ 
 `add dan sub`
-
-![output add sub](assets/add_sub.png)
-
+```
+> add 5 3
+8
+> sub 10 2
+8
+```
+ 
 `fac normal dan overflow`
-
-![output fac](assets/fac.png)
-
+```
+> fac 6
+720
+> fac 120
+know your limit little bro.
+```
+ 
 `season - perubahan warna`
-
-![output season](assets/season.png)
-
+```
+> season winter
+winter mode
+> season spring
+spring mode
+> season summer
+summer mode
+> season fall
+fall mode
+> season radiant
+radiant mode
+```
+ 
 `triangle`
-
-![output triangle](assets/triangle.png)
-
+```
+> triangle 5
+x
+xx
+xxx
+xxxx
+xxxxx
+```
+ 
 `clear`
-
-![output clear](assets/clear.png)
+```
+> clear
+[layar bersih]
+```
 
 **KENDALA**
 
-tidak ada kendala
+bochs wsl tidak dapat keluar tampilannya
