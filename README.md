@@ -504,8 +504,6 @@ else if (strcmp(cmd, "clear"))        { clearScreen(); continue; }
 ```
 
 **OUTPUT SOAL 2**
-
-**OUTPUT SOAL 2**
  
 `check dan help`
 ```
